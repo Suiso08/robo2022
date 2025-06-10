@@ -158,29 +158,25 @@ int delayswitch;
 	  switch(delayswitch)
 	  {
 	  case 0:motor1.speed(0.5);
-	  	  	  	  motor2.speed(-0.5);
-	  	  	  	  motor3.speed(0.5);
-	  	  	  	  motor4.speed(-0.5);
-
-  	  	  	  	  break;
+		  motor2.speed(-0.5);
+	  	  motor3.speed(0.5);
+	  	  motor4.speed(-0.5);
+  	  	  break;
 	  case 1000:motor1.speed(0.0);
-	  	  	  	  	  	motor2.speed(0.0);
-	  	  	  	  	  	motor3.speed(0.0);
-	  	  	  	  	  	motor4.speed(0.0);
-
-	  	  	  	  	  	break;
+	  	  motor2.speed(0.0);
+	  	  motor3.speed(0.0);
+	  	  motor4.speed(0.0);
+		  break;
 	  case 2000:motor1.speed(-0.5);
-	  	  	  	  	    motor2.speed(0.5);
-	  	  	  	  	    motor3.speed(-0.5);
-	  	  	  	  	    motor4.speed(0.5);
-
-	  	  	  	  	    break;
+		  motor2.speed(0.5);
+	  	  motor3.speed(-0.5);
+	  	  motor4.speed(0.5);
+		  break;
 	  case 3000:motor1.speed(0.0);
-	  	  				motor2.speed(0.0);
-	  	  				motor3.speed(0.0);
-	  	  				motor4.speed(0.0);
-
-	  	  	  	  	    break;
+		  motor2.speed(0.0);
+		  motor3.speed(0.0);
+		  motor4.speed(0.0);
+		  break;
 	  default:break;
 	  }
 
