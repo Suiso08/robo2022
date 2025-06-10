@@ -1,0 +1,6 @@
+../Core/Src/Encoder.cpp:4:1:Encoder::Encoder(TIM_HandleTypeDef*, TIM_TypeDef*)	24	static
+../Core/Src/Encoder.cpp:6:6:void Encoder::init()	16	static
+../Core/Src/Encoder.cpp:12:6:void Encoder::reset()	16	static
+../Core/Src/Encoder.cpp:18:6:void Encoder::update()	16	static
+../Core/Src/Encoder.cpp:25:9:int16_t Encoder::getdiff()	16	static
+../Core/Src/Encoder.cpp:30:9:int16_t Encoder::getcount()	16	static
